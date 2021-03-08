@@ -2,11 +2,8 @@
 using MasGlobal.Domain.DTO;
 using MasGlobal.Domain.Interfaces;
 using MasGlobal.Domain.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MasGlobal.Business.Services
 {
@@ -18,7 +15,11 @@ namespace MasGlobal.Business.Services
         {
             _repository = repository;
         }
-
+        /// <summary>
+        /// Returns a list of employees
+        /// </summary>
+        /// <param name="id">optional,  it specifies an Id to filter by</param>
+        /// <returns>Returns a list of EmployeeDTO objects</returns>
         public List<EmployeeDTO> GetEmployees(int? id) 
         {
             var result = new List<EmployeeDTO>();

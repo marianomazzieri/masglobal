@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTO\EmployeeDTO.cs" />
-    <Compile Include="Interfaces\IEmployeeDTO.cs" />
     <Compile Include="Interfaces\IEmployeeRepository.cs" />
     <Compile Include="Interfaces\IEmployeeService.cs" />
     <Compile Include="Models\EmployeeModel.cs" />

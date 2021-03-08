@@ -1,17 +1,15 @@
-﻿using System;
-using System.Reflection;
-using System.Web;
+﻿using MasGlobal.API.App_Start;
 using MasGlobal.Business.Services;
 using MasGlobal.Data.Repositories;
 using MasGlobal.Domain.Interfaces;
 using Microsoft.Web.Infrastructure.DynamicModuleHelper;
-
 using Ninject;
 using Ninject.Web.Common;
 using Ninject.Web.Common.WebHost;
-using MasGlobal.API.App_Start;
-using System.Web.Http;
 using Ninject.Web.WebApi;
+using System;
+using System.Web;
+using System.Web.Http;
 
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(NinjectWebCommon), "Start")]
 [assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(NinjectWebCommon), "Stop")]

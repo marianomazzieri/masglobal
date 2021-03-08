@@ -15,6 +15,11 @@ namespace MasGlobal.Business.DTO
 
         }
 
+        /// <summary>
+        /// Creates a concrete instance of EmployeeDTO based on the ContractTypeName property of the supplied model
+        /// </summary>
+        /// <param name="model">Employee model</param>
+        /// <returns></returns>
         internal EmployeeDTO CreateEmployeeDTO(EmployeeModel model)
         {
             EmployeeDTO employee = null;

@@ -4,10 +4,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MasGlobal.Data.Repositories
 {
@@ -22,6 +19,10 @@ namespace MasGlobal.Data.Repositories
             _httpClient = new HttpClient();
         }
 
+        /// <summary>
+        /// Retrives the list of all the employees from the Employee API
+        /// </summary>
+        /// <returns>List of EmployeeModel objects</returns>
         public List<EmployeeModel> GetAll()
         {
             string url = _employeeApiBaseUrl;

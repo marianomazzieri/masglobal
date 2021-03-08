@@ -1,10 +1,6 @@
 ﻿using MasGlobal.Domain.DTO;
 using MasGlobal.Domain.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace MasGlobal.API.Controllers
