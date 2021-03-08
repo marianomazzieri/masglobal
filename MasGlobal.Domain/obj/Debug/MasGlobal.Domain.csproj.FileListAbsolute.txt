@@ -1,0 +1,5 @@
+C:\Projects\MasGlobal\MasGlobal.Domain\bin\Debug\MasGlobal.Domain.dll
+C:\Projects\MasGlobal\MasGlobal.Domain\bin\Debug\MasGlobal.Domain.pdb
+C:\Projects\MasGlobal\MasGlobal.Domain\obj\Debug\MasGlobal.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\MasGlobal\MasGlobal.Domain\obj\Debug\MasGlobal.Domain.dll
+C:\Projects\MasGlobal\MasGlobal.Domain\obj\Debug\MasGlobal.Domain.pdb

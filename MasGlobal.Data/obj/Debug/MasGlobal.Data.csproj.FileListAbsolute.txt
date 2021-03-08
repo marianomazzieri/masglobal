@@ -1,0 +1,11 @@
+C:\Projects\MasGlobal\MasGlobal.Data\bin\Debug\MasGlobal.Data.dll
+C:\Projects\MasGlobal\MasGlobal.Data\bin\Debug\MasGlobal.Data.pdb
+C:\Projects\MasGlobal\MasGlobal.Data\bin\Debug\MasGlobal.Domain.dll
+C:\Projects\MasGlobal\MasGlobal.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\MasGlobal\MasGlobal.Data\bin\Debug\MasGlobal.Domain.pdb
+C:\Projects\MasGlobal\MasGlobal.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\MasGlobal\MasGlobal.Data\obj\Debug\MasGlobal.Data.csprojAssemblyReference.cache
+C:\Projects\MasGlobal\MasGlobal.Data\obj\Debug\MasGlobal.Data.csproj.CoreCompileInputs.cache
+C:\Projects\MasGlobal\MasGlobal.Data\obj\Debug\MasGlobal.Data.csproj.CopyComplete
+C:\Projects\MasGlobal\MasGlobal.Data\obj\Debug\MasGlobal.Data.dll
+C:\Projects\MasGlobal\MasGlobal.Data\obj\Debug\MasGlobal.Data.pdb

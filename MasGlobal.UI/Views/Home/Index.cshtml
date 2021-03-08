@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@using MasGlobal.UI.Models;
+
+<div class="jumbotron">
+    <h1>Employees</h1>
+    <p class="lead">In this page you can search employees.</p>
+</div>
+
+<div class="row">
+    @using (Html.BeginForm("Index", "Index", FormMethod.Post))
+    {
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="idText">Id: </label>
+                <input type="text class="form-control" id="idText" />
+            </div>
+            @*@Html.TextBox("idText")*@
+        </div>
+        <div class="col-md-4">
+            <input type="button" id="btnSubmit" class="btn btn-primary" value="Get Employees" onclick="location.href='@Url.Action("GetEmployees", "Home")?id=' + $('#idText').val()" />
+        </div>
+    }
+</div>
+<br />
+<div class="row">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Contract Type</th>
+                <th>Hourly Salary</th>
+                <th>Monthly Salary</th>
+                <th>Year Salary</th>
+            </tr>
+        </thead>
+        <tbody>            
+            @if (TempData["Employees"] != null)
+            {
+                foreach (Employee employee in (List<Employee>) TempData["Employees"])
+                {
+                 <tr>
+                    <td>@employee.Id</td>
+                    <td>@employee.Name</td>
+                    <td>@employee.ContractTypeName</td>
+                    <td>@employee.HourlySalary.ToString("c")</td>
+                    <td>@employee.MonthlySalary.ToString("c")</td>
+                    <td>@employee.YearSalary.ToString("c")</td>
+                </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
